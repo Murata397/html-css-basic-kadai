@@ -75,8 +75,7 @@ a:hover {
 
 
 @media screen and (max-width: 768px) {
-  main {
-    .contents {
+  .contents {
       display: block;
     }
 
