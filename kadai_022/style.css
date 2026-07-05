@@ -11,70 +11,72 @@ header {
   background-color: rgb(244,79,79);
   margin-bottom: 20px;
   text-align: center;
-
+}
   h1 {
     color: rgb(255, 255, 255);
   }
-}
+
 
 main {
   margin: 10px;
   padding: 10px;
-  
-  #parent {
-    display: flex;
-    justify-content: space-between;
-  }
+} 
 
-  .contents {
-    flex-basis: 25%;
-    margin: 10px 15px;
-    padding: 20px 0px;
-    text-align: center;
-    border: 3px solid rgb(238,204,204);
-  }
-
-  h2 {
-    font-size: 25px;
-    border-bottom: 3px dotted rgb(236, 122, 122);
-  }
-
-  h2::before {
-    content: "●";
-    color: rgb(236, 122, 122);
-  }
-
-  .contents p:last-of-type::first-letter {
-    font-weight: bold;
-    color: rgb(97, 206, 249);
-  }
-
-  .contents img {
-    margin: 10px 0px;
-    width: 70%;
-  }
+#parent {
+  display: flex;
+  justify-content: space-between;
 }
+
+.contents {
+  flex-basis: 25%;
+  margin: 10px 15px;
+  padding: 20px 0px;
+  text-align: center;
+  border: 3px solid rgb(238,204,204);
+}
+
+h2 {
+  font-size: 25px;
+  border-bottom: 3px dotted rgb(236, 122, 122);
+}
+
+h2::before {
+  content: "●";
+  color: rgb(236, 122, 122);
+}
+
+.contents p:last-of-type::first-letter {
+  font-weight: bold;
+  color: rgb(97, 206, 249);
+}
+
+.contents img {
+  margin: 10px 0px;
+  width: 70%;
+}
+
 
 footer {
-  background-color: rgb(244,79,79);
-  text-align: center;
-
-  a:link {
-    color: rgb(255, 255, 255);
-  }
-
-  a:visited {
-    color: rgb(193, 234, 251);
-  }
-
-  a:hover {
-    color: rgb(245, 178, 168);
-  }
+background-color: rgb(244,79,79);
+text-align: center;
 }
+
+a:link {
+  color: rgb(255, 255, 255);
+}
+
+a:visited {
+  color: rgb(193, 234, 251);
+}
+
+a:hover {
+  color: rgb(245, 178, 168);
+}
+
 
 @media screen and (max-width: 768px) {
   main {
-    #parent {
+    .contents {
       display: block;
     }
 
