@@ -45,7 +45,7 @@ h2::before {
   color: rgb(236, 122, 122);
 }
 
-.contents p:last-of-type::first-letter {
+.contents p:nth-child(3)::first-letter {
   font-weight: bold;
   color: rgb(97, 206, 249);
 }
@@ -75,7 +75,7 @@ a:hover {
 
 
 @media screen and (max-width: 768px) {
-  .contents {
+  #parent {
       display: block;
     }
 
@@ -87,4 +87,3 @@ a:hover {
       font-size: 30px;
     }
   }
-}
