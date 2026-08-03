@@ -1,3 +1,129 @@
 * {
   box-sizing: border-box;
+  background-color: #fff;
+}
+
+p {
+  color: #000;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+}
+
+/* page-title */
+
+.page-title {
+  font-size: 34px;
+  border: 1px solid #000;
+  height: 50px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
+}
+
+/* nav */
+
+.pc-nav-container {
+  text-align: center;
+  font-size: 34px;
+}
+
+.pc-nav-col {
+  display: flex;
+}
+
+.pc-nav-wrap {
+  list-style: none;
+}
+
+.pc-nav-item {
+  text-decoration: none;
+  color: #000;
+  margin-left: 40px;
+}
+
+/* main */
+
+.main-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-image > img {
+  overflow: clip;
+  overflow-clip-margin: content-box;
+  width: 100%;
+}
+
+/* about */
+
+.heading {
+  font-size: 34px;
+  text-align: center;
+  padding-top: 100px;
+  font-weight: normal;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image {
+border-radius: 100%;
+margin: 0 100px;
+}
+
+.info {
+  font-size: 18px;
+}
+
+.name {
+  font-size: 24px;
+}
+
+/* works */
+
+.works-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.works-col {
+  margin: 0 10px;
+  padding-bottom: 60px;
+  width: 25%;
+}
+
+.works-col > img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.works-col > p {
+  margin: 0;
+}
+
+/* footer */
+
+.copyright {
+  font-size: 18px;
+  text-align: center;
 }
